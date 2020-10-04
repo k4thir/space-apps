@@ -126,7 +126,7 @@ html {
 #arrow{
     position: absolute;
     bottom: 75px;
-    transform : rotate(135deg);
+    transform : rotate(315deg);
     left: 100px;
     animation-name:arrow;
   animation-duration:7s;
@@ -137,14 +137,35 @@ html {
 #arrow2{
     position: absolute;
     bottom: 75px;
-    transform : rotate(45deg);
+    transform : rotate(225deg);
     right: 100px;
     animation-name:arrow2;
   animation-duration:7s;
   animation-iteration-count:infinite;
   
-
 }
+#arrow3{
+    position: absolute;
+    bottom: 75px;
+    left: 100px;
+    animation-name:arrow3;
+  animation-duration:7s;
+  animation-iteration-count:infinite;
+  
+}
+#arrow4{
+    position: absolute;
+    bottom: 75px;
+    transform : rotate(180deg);
+    right: 100px;
+    animation-name:arrow4;
+  animation-duration:7s;
+  animation-iteration-count:infinite;
+  
+}
+
+
+
 #astro1{
     position: absolute;
     bottom: 75px;
@@ -180,3 +201,18 @@ html {
 
     100% {right:700px; bottom:350px;}
   } 
+  @keyframes arrow3 {
+    0%   {left: 100px; bottom:100px;}
+
+  
+
+    100% {left:1100px; bottom:100px;}
+  }
+
+  @keyframes arrow4 {
+    0%   {right: 100px; bottom:100px;}
+
+  
+
+    100% {right:1100px; bottom:100px;}
+  }

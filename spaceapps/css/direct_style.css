@@ -124,7 +124,7 @@ html {
 #arrow{
     position: absolute;
     top: 300px;
-    transform : rotate(180deg);
+   
     right: 700px;
     animation-name:arrow;
   animation-duration:7s;
@@ -132,6 +132,24 @@ html {
   
 
 }
+#arrow2{
+    position: absolute;
+    top: 280px;
+   transform: rotate(60deg);
+    right: 800px;
+    
+  
+
+}#arrow3{
+    position: absolute;
+    top: 350px;
+    transform: rotate(120deg);
+    right: 200px;
+   
+  
+
+}
+
 
 @keyframes arrow {
     0%   {right: 700px; top:300px;}

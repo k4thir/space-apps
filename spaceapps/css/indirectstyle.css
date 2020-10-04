@@ -90,9 +90,14 @@ html {
   }
   #sat1{
       position: relative;
-      top: 100px;
-      left: 250px;
+      top: 80px;
+      left: 350px;
   }
+  #sat3{
+    position: relative;
+    top: 100px;
+    left: 250px;
+}
   #mars{
       position: absolute;
       top: 150px;
@@ -124,7 +129,7 @@ html {
 #arrow{
     position: absolute;
     top: 300px;
-    transform : rotate(180deg);
+
     right: 700px;
     animation-name:arrow;
   animation-duration:7s;
@@ -132,11 +137,46 @@ html {
   
 
 }
+#arrow2{
+  position: absolute;
+  top: 300px;
+  transform : rotate(315deg);
+  
+  animation-name:arrow2;
+animation-duration:7s;
+animation-iteration-count:infinite;
 
+
+}
+#arrow3{
+  position: absolute;
+  top: 300px;
+  transform : rotate(30deg);
+  
+  animation-name:arrow3;
+animation-duration:7s;
+animation-iteration-count:infinite;
+
+
+}
 @keyframes arrow {
-    0%   {right: 1000px; top:150px;}
+    0%   {right: 850px; top:150px;}
 
   
 
     100% {right:250px; top:150px;}
   }
+  @keyframes arrow2 {
+    0%   {left: 250px; top:300px;}
+
+  
+
+    100% {left:350px; top:150px;}
+  }  
+  @keyframes arrow3 {
+    0%   {right: 200px; top:200px;}
+
+  
+
+    100% {right:120px; top:230px;}
+  }  
