@@ -135,6 +135,7 @@
   .bttn{
     width: 250px;
     height: 250px;
+    font-size: small;
     color: #fff !important;
     text-transform: uppercase;
     text-decoration: none;
